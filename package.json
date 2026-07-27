@@ -1,0 +1,20 @@
+{
+  "name": "toolhub-solo-bot",
+  "version": "1.0.0",
+  "description": "ToolHubSoloBot - a multi-tool Telegram bot (starting with a backlink checker)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
